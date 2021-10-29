@@ -1,0 +1,66 @@
+@import "../../theme.scss";
+
+.overlay {
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit {
+    width: 484px;
+    min-height: 450px;
+    background: white;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    .logo {
+        margin-bottom: 12px;
+    }
+    .primary {
+        @extend .headings_primary;
+    }
+    .secondary {
+        @extend .headings_secondary;
+        text-align: center;
+    }
+    .quotes {
+        font-size: 15px;
+        font-style: italic;
+    }
+}
+
+.loader-wrapper {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.loader {
+    animation:spin 1s infinite linear;
+    border:solid 4px transparent;
+    border-radius:50%;
+    border-right-color:$orange;
+    border-top-color:$orange;
+    box-sizing:border-box;
+    height:100px;
+    width:100px;
+    left:calc(50% - 50px);
+    position:fixed;
+    z-index:1;
+  }
+  
+  @keyframes spin {
+    100% {
+      transform:rotate(360deg);
+    }
+  }

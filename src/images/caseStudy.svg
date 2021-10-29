@@ -1,0 +1,17 @@
+<svg width="155" height="156" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <ellipse id="b" cx="42.5" cy="42.857" rx="42.5" ry="42.857"/>
+        <filter x="-73.5%" y="-49.6%" width="247.1%" height="245.8%" filterUnits="objectBoundingBox" id="a">
+            <feOffset dy="20" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="17.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 1 0 0 0 0 0.388235294 0 0 0 0 0 0 0 0 0.15 0" in="shadowBlurOuter1"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g opacity=".1" transform="translate(35 15)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#FF6300" xlink:href="#b"/>
+        </g>
+        <path d="M112.5 52.5H100v-15a2.5 2.5 0 0 0-2.5-2.5h-50a2.5 2.5 0 0 0-2.5 2.5V95c0 5.523 4.477 10 10 10h50c5.523 0 10-4.477 10-10V55a2.5 2.5 0 0 0-2.5-2.5zm-47.5-5h15a2.5 2.5 0 1 1 0 5H65a2.5 2.5 0 1 1 0-5zM87.5 95h-30a2.5 2.5 0 1 1 0-5h30a2.5 2.5 0 1 1 0 5zm0-10h-30a2.5 2.5 0 1 1 0-5h30a2.5 2.5 0 1 1 0 5zm0-10h-30a2.5 2.5 0 1 1 0-5h30a2.5 2.5 0 1 1 0 5zm0-10h-30a2.5 2.5 0 1 1 0-5h30a2.5 2.5 0 1 1 0 5zM110 95a5 5 0 0 1-10 0V57.5h10V95z" fill="#FFEBCB"/>
+    </g>
+</svg>

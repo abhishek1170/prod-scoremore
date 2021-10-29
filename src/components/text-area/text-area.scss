@@ -1,0 +1,26 @@
+@import "../../theme.scss";
+
+.text-area {
+  height: 78px !important;
+  padding: 16px 24px;
+  border-radius: 12px;
+  background-color: #fff;
+  margin: 2px;
+  textarea {
+    height: 100% !important;
+    width: 100% !important;
+    border: none;
+    outline: none;
+    resize: none;
+    @extend .headings_input_text;
+    ::-webkit-input-placeholder {
+      @extend .headings_input_placeholder;
+    }
+    :-ms-input-placeholder {
+      @extend .headings_input_placeholder;
+    }
+    ::placeholder {
+      @extend .headings_input_placeholder;
+    }
+  }
+}

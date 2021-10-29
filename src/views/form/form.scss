@@ -1,0 +1,139 @@
+@import "../../theme.scss";
+
+.form-wrapper {
+  position: relative;
+  height: 800px;
+  @media only screen and (max-width: $width-1024) {
+    height: 970px;
+  }
+  @media only screen and (max-width: $width-768) {
+    height: 1155px;
+  }
+  @media only screen and (max-width: 500px) {
+    height: 1185px;
+  }
+  @media only screen and (max-width: 450px) {
+    height: 1250px;
+  }
+  @media only screen and (max-width: 370px) {
+    height: 1280px;
+  }
+}
+
+.form-container {
+  background-color: $dark-blue;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -83px;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 102px 83px;
+
+  @media only screen and (max-width: $width-1024) {
+    padding: 102px 30px;
+    flex-direction: column;
+  }
+  @media only screen and (max-width: $width-768) {
+    padding: 102px 16px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+
+  .form {
+    max-width: 818px;
+    flex: 1;
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+    align-items: stretch;
+
+    @media only screen and (max-width: $width-1024) {
+      max-width: none;
+      width: 100%;
+    }
+
+    .error-text {
+      color: red;
+    }
+
+    .row {
+      flex: 1;
+      display: flex;
+      @media only screen and (max-width: $width-768) {
+        flex-direction: column;
+      }
+      & > div {
+        flex: 1;
+        margin-bottom: 24px;
+      }
+      & > div:not(:last-child) {
+        margin-right: 24px;
+        @media only screen and (max-width: $width-768) {
+          margin-right: 0px;
+        }
+      }
+    }
+    .checkbox-selection {
+      margin-top: 24px;
+      margin-bottom: 24px;
+      flex: 1;
+      padding: 0 10px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      white-space: nowrap;
+      & > div:not(:last-child) {
+        margin-right: 88px;
+        @media only screen and (max-width: $width-768) {
+          margin-right: 0px;
+        }
+      }
+      @media only screen and (max-width: $width-768) {
+        justify-content: space-between;
+      }
+    }
+    .slider-heading {
+      font-family: $poppins;
+      font-size: 18px;
+      color: #fff;
+      margin-bottom: 16px;
+    }
+    .description {
+      margin-top: 24px;
+      margin-bottom: 40px;
+    }
+    & > button {
+      width: 100%;
+    }
+  }
+
+  .headings {
+    max-width: 310px;
+    @media only screen and (max-width: $width-1024) {
+      max-width: none;
+      margin-bottom: 24px;
+    }
+    .primary {
+      font-family: $poppins-bold;
+      font-size: 30px;
+      color: $background-color;
+      margin-bottom: 24px;
+    }
+    .secondary {
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2;
+      letter-spacing: normal;
+      color: $grey;
+    }
+  }
+}

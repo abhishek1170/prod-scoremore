@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="163px" height="162px" viewBox="0 0 163 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>A3B4ABAD-77B3-4C72-A4D9-43F559A9C907</title>
+    <defs>
+        <path d="M69.2689544,82.0349745 L42.579468,47.7238346 L42.579468,5.80628285 C42.579468,4.73738247 41.7128803,3.87079475 40.6439799,3.87079475 C18.2317281,3.87079475 0,23.8405974 0,48.3855694 C0.0277612899,72.9590286 19.941497,92.8727643 44.5147747,92.9005256 C53.4370355,93.593832 62.2593194,90.6415187 68.9670277,84.7174771 C69.7775485,84.0526577 69.9114559,82.8634584 69.2689544,82.0349745 Z" id="path-1"></path>
+        <filter x="-89.7%" y="-47.7%" width="279.4%" height="240.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="17.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.388235294   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M90.3185241,50.3210575 L51.6100323,50.3210575 C50.5411319,50.3210575 49.6750884,51.1880081 49.6750884,52.2569085 C49.6750884,52.6990933 49.8265962,53.127851 50.1043906,53.4718732 L75.2650101,84.6205848 C75.6025003,85.0393629 76.0989374,85.2986498 76.6352928,85.336754 L76.7708332,85.336754 C77.2605569,85.3371164 77.7323174,85.1516782 78.0908554,84.8179984 C87.1069239,76.3863685 92.2333274,64.600703 92.2543751,52.2563642 C92.2543751,51.1876453 91.387606,50.3210575 90.3185241,50.3210575 Z" id="path-3"></path>
+        <filter x="-146.8%" y="-121.4%" width="393.6%" height="457.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="17.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.388235294   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-453.000000, -3718.000000)">
+            <g id="courses" transform="translate(0.000000, 3090.000000)">
+                <g id="Group-25-Copy-3" transform="translate(393.000000, 578.000000)">
+                    <g id="Group-24" transform="translate(80.000000, 50.000000)">
+                        <circle id="Oval" fill="#FFEBCB" cx="54" cy="54" r="54"></circle>
+                        <g id="pie-chart" transform="translate(15.000000, 14.000000)">
+                            <path d="M48.3857509,0 C47.3168505,0 46.4502628,0.866587715 46.4502628,1.9354881 L46.4502628,44.5149561 C46.4502628,45.5838565 47.3168505,46.4504442 48.3857509,46.4504442 L90.9652189,46.4504442 C92.0341193,46.4504442 92.900707,45.5838565 92.900707,44.5149561 C92.8727643,19.941497 72.9590286,0.0277612899 48.3857509,0 Z" id="Path" fill="#363562"></path>
+                            <g id="Path">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#FF6300" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <g id="Path">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                                <use fill="#FF6300" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

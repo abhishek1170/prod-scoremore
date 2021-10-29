@@ -1,0 +1,81 @@
+@import "../../theme.scss";
+
+.whyus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 83px;
+
+  @media only screen and (max-width: $width-1024) {
+    padding: 50px 30px;
+    text-align: center;
+  }
+  @media only screen and (max-width: $width-768) {
+    padding: 50px 16px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    @media only screen and (max-width: $width-768) {
+      align-items: flex-start;
+    }
+  }
+
+  .column {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+
+  .primary {
+    @extend .headings_primary;
+    margin-bottom: 18px;
+    position: relative;
+    z-index: 1;
+  }
+  .secondary {
+    @extend .headings_secondary;
+    margin-bottom: 60px;
+    opacity: 1;
+    @media only screen and (max-width: $width-768) {
+      margin-bottom: 30px;
+    }
+  }
+  .circle {
+    z-index: 0;
+  }
+
+  .points {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+
+    > .row:not(:last-child) {
+      margin-bottom: 60px;
+    }
+
+    .point {
+      flex-direction: column;
+      img {
+        width: 85px;
+        @media only screen and (max-width: $width-1024) {
+          width: 75px;
+        }
+      }
+    }
+
+    .label {
+      font-family: $poppins;
+      font-size: 20px;
+      font-weight: 500;
+      text-align: center;
+      @media only screen and (max-width: $width-1024) {
+        font-size: 15px;
+      }
+    }
+  }
+}
